@@ -1,0 +1,5 @@
+#!/bin/bash
+BASEDIR=$(dirname $0)
+echo $BASEDIR
+pwd
+rosrun xacro xacro.py $BASEDIR/../robots/uv_biped.urdf.xacro > $BASEDIR/../models/uv_biped.urdf

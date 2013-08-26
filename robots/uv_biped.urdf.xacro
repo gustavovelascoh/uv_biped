@@ -1,0 +1,6 @@
+<robot name="uv_biped" >
+  <include filename="$(find uv_biped)/urdf/atlas_simple_shapes.urdf" />
+  <include filename="$(find uv_biped)/urdf/atlas.gazebo" />
+  <include filename="$(find uv_biped)/urdf/atlas.transmission" />
+  <include filename="$(find uv_biped)/urdf/empty_head.urdf" />  
+</robot>

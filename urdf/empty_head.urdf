@@ -1,0 +1,4 @@
+<robot name="empty">
+	<link name="head">
+	</link>
+</robot>
