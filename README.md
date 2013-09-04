@@ -20,7 +20,7 @@ Instrucciones:
   
 3. Añadir el directorio del espacio de trabajo a la variable $ROS_PACKAGE_PATH:
 
-  $ export ROS_PACKAGE_PATH=`pwd`:$ROS_PACKAGE_PATH
+  $ export ROS_PACKAGE_PATH=$(pwd):$ROS_PACKAGE_PATH
   
 4. Lanzar el archivo uv_biped.launch
 
