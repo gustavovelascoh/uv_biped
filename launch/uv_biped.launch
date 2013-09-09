@@ -16,7 +16,7 @@
   <param name="/atlas/delay_max_per_step" type="double" value="0.025"/>
 
   <!-- Robot Description -->
-  <param name="robot_description" textfile="$(find uv_biped)/models/uv_biped.urdf"/>
+  <param name="robot_description" textfile="$(find uv_biped)/models/uv_biped/uv_biped.urdf"/>
   
   <include file="$(find uv_biped)/launch/atlas_bringup.launch"/>
 </launch>
