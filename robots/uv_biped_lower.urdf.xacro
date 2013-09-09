@@ -1,0 +1,5 @@
+<robot name="uv_biped" xmlns:xacro="http://ros.org/wiki/xacro">
+  <include filename="$(find uv_biped)/urdf/uv_biped_simple_shapes_lower_body.urdf" />
+  <include filename="$(find uv_biped)/urdf/atlas.gazebo" />
+  <include filename="$(find uv_biped)/urdf/atlas.transmission" />
+</robot>
